@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), LeoActivity.class);
+                intent.putExtra("message","반갑습니다.");
                 startActivity(intent);
             }
         });
